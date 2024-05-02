@@ -1,6 +1,7 @@
 {
   "name": "ecommerce",
   "version": "0.1.0",
+  "homepage": "https://project7-qx221wlgz-felins-projects.vercel.app/",
   "private": true,
   "dependencies": {
     "@shopify/polaris": "^13.2.0",
