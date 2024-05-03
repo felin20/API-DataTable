@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal, TextContainer, Text, Button } from '@shopify/polaris';
+import { Modal, TextContainer, Text } from '@shopify/polaris';
 
 const ProductModal = ({ open, onClose, productId, products }) => {
   if (!open || !productId || !products) {
