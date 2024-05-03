@@ -4,7 +4,6 @@
 
 import React, { useState, useEffect } from 'react';
 import { Page, Card, DataTable, TextField, ChoiceList, Filters, Banner, EmptyState, Button } from '@shopify/polaris';
-import { useNavigate } from 'react-router-dom';
 import emptyStateImage from './empty-state-image.png';
 import ProductModal from './ProductModal';
 import AddProductModal from './AddProductModal'; // Import AddProductModal
@@ -40,7 +39,6 @@ function ProductListingPage() {
     fetchData();
   }, []);
 
-  const history = useNavigate();
 
   const handleRowClick = (productId) => {
     const product = products.find(p => p.id === productId);
