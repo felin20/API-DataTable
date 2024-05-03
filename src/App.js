@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import enTranslations from '@shopify/polaris/locales/en.json';
 import { AppProvider } from '@shopify/polaris';
 import ProductListingPage from './components/ProductListingPage';
-import ProductModal from './components/ProductModal';
 
 function App() {
   return (
