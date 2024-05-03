@@ -9,7 +9,7 @@ function App() {
     <AppProvider i18n={enTranslations}>
       <Router>
         <Routes>
-          <Route exact path="/" component={ProductListingPage} />
+          <Route path="/" element={<ProductListingPage />} />
           {/* Add more routes if necessary */}
         </Routes>
       </Router>
