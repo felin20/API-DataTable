@@ -3647,13 +3647,8 @@ html[class~='Polaris-Safari-16-Font-Optical-Sizing-Patch']{
   margin-block-end:calc(var(--pc-choice-bleed-block-end, var(--pc-choice-space-0))*-1);
   margin-inline-start:calc(var(--pc-choice-bleed-inline-start, var(--pc-choice-space-0))*-1);
   margin-inline-end:calc(var(--pc-choice-bleed-inline-end, var(--pc-choice-space-0))*-1);
-  inline-size: calc(var(--pc-choice-fill, auto) + var(--pc-choice-bleed-inline-start, 0) + var(--pc-choice-bleed-inline-end, 0));
-
-  inline-size: calc(
-    var(--pc-choice-fill, auto) +
-    var(--pc-choice-bleed-inline-start, 0) +
-    var(--pc-choice-bleed-inline-end, 0)
-);
+inline-size: auto;
+inline-size: auto;
 
 }
 @media (min-width: 30.625em) {
