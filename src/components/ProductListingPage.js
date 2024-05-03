@@ -1,7 +1,3 @@
-
-
-
-
 import React, { useState, useEffect } from 'react';
 import { Page, Card, DataTable, TextField, ChoiceList, Filters, Banner, EmptyState, Button } from '@shopify/polaris';
 import emptyStateImage from './empty-state-image.png';
