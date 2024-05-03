@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import enTranslations from '@shopify/polaris/locales/en.json';
 import { AppProvider } from '@shopify/polaris';
 import ProductListingPage from './components/ProductListingPage';
@@ -8,10 +8,10 @@ function App() {
   return (
     <AppProvider i18n={enTranslations}>
       <Router>
-        <Routes>
+        <Switch>
           <Route exact path="/" component={ProductListingPage} />
           {/* Add more routes if necessary */}
-        </Routes>
+        </Switch>
       </Router>
     </AppProvider>
   );
