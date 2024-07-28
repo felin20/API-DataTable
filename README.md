@@ -1,3 +1,8 @@
+https://project7-lac.vercel.app/  Deployed Link
+
+Table created using data from fakestoreapi.com/products
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
